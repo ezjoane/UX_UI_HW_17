@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+/*header style*/
+
+body{
+    background-color: white;
+    margin: 50px;
+    font-family:'Montserrat', sans-serif; 
+    color:black;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+  
+  }
+
+#navigation {
+    display: flex;
+    width: 30%;
+    align-items:right;
+    justify-content: space-evenly;
+    color: black;
+  }
+.mylogo{
+    display: flex;
+    justify-content:start;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+#header ul{
+list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content:space-between;
+  width: 100%;
+  padding: right 25px;
+  margin: top 25px;
+  margin-right: 25px;
+  font-weight: 600;
+  color:tomato
+}
+
+.category{
+    color: black;
+  }
+
+/*section style*/
+
+.words{
+display:inline-block
+
+}
+
+.introduction{
+    
+    justify-content: left;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+.job{
+   
+    justify-content: left;
+    font-size: 50px;
+    font-weight: bold;
+    color:tomato;
+  }
+
+.whaticando{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.email{
+    display:inline-block;
+    justify-content: flex-start;
+}
+.hemailaddress{ 
+    padding-top: 5px;
+
+}
+.webstie{
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+.mypic{
+    margin: 50px;
+}
+
+/* footer styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    height: 300px;
+  }
+.left{
+    list-style-type: none;
+    margin: 0 px;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:space-between;
+    width: 30%;
+    color:white;
+    
+  }
+
+.middle{
+    list-style-type: none;
+    margin: 0 px;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    width: 35%;
+    color:white;
+    
+  }
+
+.footer{
+    background-color:tomato;
+}
+.right{
+    width: 10%;
+    align-items:center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.inslogo{
+    width:20px;
+    height:20pxl;
+}
+.fblogo{
+    width:20px;
+    height:20pxl;
+}
+.twitter{
+    width:20px;
+    height:20pxl;
+}
