@@ -56,7 +56,7 @@ body{
   margin: top 25px;
   margin-right: 25px;
   font-weight: 600;
-  color:tomato
+  color:tomato;
 }
 
 .category{
@@ -172,5 +172,5 @@ footer ul li a{
 }
 .twitter{
     width:20px;
-    height:20pxl;
+    height:20px;
 }
